@@ -1,0 +1,125 @@
+// @import "../../global.scss";
+
+// .topbar{
+//   width: 100%;
+//   height: 80px;
+//   background: linear-gradient(135.62deg, rgba(0, 255, 194, 0.25) 9.42%, rgba(10, 126, 234, 0.25) 74.58%);
+//   color: black;
+//   position: fixed;
+//   top: 0;
+//   z-index: 2;
+
+//   .wrapper{
+//     padding: 10px 30px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+
+//     .left{
+//       display: flex;
+//       align-items: center;
+
+//       .logo{
+//         font-size: 40px;
+//         font-weight: 500;
+//         text-decoration: none;
+//         color: inherit;
+//         margin-right: 10px;
+//       }
+//       .itemContainer{
+//         display: flex;
+//         align-items: center;
+//         // margin-left: 30px;
+
+//         .fa-clock{
+//           font-size: 25px;
+//         }
+//       }
+//     }
+//     .right{
+
+//       .hamburger{
+//         width: 32px;
+//         height: 25px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         cursor: pointer;
+
+//         span{
+//           width: 100%;
+//           height: 3px;
+//           background-color: $mainColor;
+//           transform-origin: left;
+//         }
+//       }
+//     }
+//   }
+
+//   &.active{
+//     background-color: $mainColor;
+//     color: white;
+
+//     .hamburger{
+//       span{
+//         &:first-child{
+//           background-color: white;
+//           transform: rotate(45deg);
+//         }
+//         &:nth-child(2){
+//           opacity: 0;
+//         }
+//         &:last-child{
+//           background-color: white;
+//           transform: rotate(-45deg);
+//         }
+//       }
+//     }
+//   }
+// }
+
+@import "../../global.scss";
+
+.topbar {
+  width: 100%;
+  height: 70px;
+  color: lightcoral;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  .wrapper {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      .logo {
+        font-size: 30px;
+        font-weight: 700;
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+
+    .right {
+      .btn {
+        border: none;
+        color: inherit;
+        background-color: inherit;
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        display: inline-block;
+        border-radius: 25px;
+      }
+
+      /* On mouse-over */
+      .btn:hover {
+        background: $mainColor;
+      }
+    }
+  }
+}

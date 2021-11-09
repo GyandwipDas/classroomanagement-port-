@@ -1,0 +1,69 @@
+@import "../../global.scss";
+
+.signin-container {
+  background: linear-gradient(
+    247.03deg,
+    rgba(255, 0, 0, 0.25) 17.81%,
+    rgba(229, 10, 234, 0.25) 100%
+  );
+
+  .signin {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .right {
+      padding-top: 70px;
+    }
+
+    .left {
+      padding-left: 50px;
+      padding-top: 70px;
+
+      h1 {
+        color: black;
+        font-size: 60px;
+      }
+
+      .signin-form {
+        color: black;
+        padding-top: 20px;
+
+        label {
+          font-size: 50px;
+          font-weight: 500;
+          width: 250px;
+        }
+
+        input {
+          margin: 10px 0px;
+          font-size: 30px;
+          padding: 5px;
+          border-radius: 5px;
+        }
+
+        .submit {
+          text-transform: uppercase;
+          border-style: solid;
+          border-radius: 5px;
+          width: 50%;
+          padding: 15px 15px;
+          margin: 10px 70px;
+          font-size: 25px;
+          background-color: whitesmoke;
+          color: lightcoral;
+          font-weight: 700;
+          -webkit-transition: all 0.3 ease;
+          transition: all 0.3 ease;
+          cursor: pointer;
+        }
+        .message {
+          font-size: 20px;
+          font-weight: 400;
+          padding: 5px 45px;
+        }
+      }
+    }
+  }
+}
