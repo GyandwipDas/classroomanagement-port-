@@ -1,0 +1,78 @@
+.contact {
+  background: linear-gradient(
+    243.29deg,
+    rgba(0, 255, 102, 0.25) 29.88%,
+    rgba(255, 68, 236, 0.36) 95.16%
+  );
+  display: flex;
+
+  .left {
+    flex: 0.55;
+    overflow: hidden;
+
+    .imgContainer {
+      widows: 700px;
+      height: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+
+  .right {
+    flex: 0.45;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      font-size: 30px;
+    }
+
+    form {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      input {
+        width: 300px;
+        height: 30px;
+      }
+
+      textarea {
+        width: 300px;
+        height: 200px;
+        font-size: 14px;
+      }
+
+      button {
+        text-transform: uppercase;
+        border-style: solid;
+        border-radius: 5px;
+        width: 50%;
+        padding: 15px 15px;
+        margin: 10px 70px;
+        font-size: 25px;
+        background-color: whitesmoke;
+        color: lightcoral;
+        font-weight: 700;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+        border: none;
+      }
+
+      span {
+        color: green;
+      }
+    }
+  }
+}
