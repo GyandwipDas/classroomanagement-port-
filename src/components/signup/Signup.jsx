@@ -17,7 +17,8 @@ export default function Signup(){
                     <span><label htmlFor="Semester">Semester</label>
                     <input type="text" placeholder="Semester" required/><br /></span>
                     <button className="submit">Sign Up</button>
-                    <p class="message1"><a href>Sign Up as a Teacher instead?</a></p>
+                    {/* <p class="message1"><p>Sign Up as a Teacher instead?</p><a href="#signupteacher">Click here!</a></p> */}
+                    <p class="message1">Sign Up as a Teacher instead?<a href="#signupteacher"> Click here!</a></p>
                     <p class="message2">Have an account?<a href="#signin-container"> Sign In!</a></p>
                 </form>
             </div>
